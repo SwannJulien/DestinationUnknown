@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Agencia de viaje sorpresa. No conoces el destino pero sabes que la experiencia será única y inolvidable"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&family=Roboto:wght@300;500&display=swap");
+    </style>
+
+    <title>Destination unknown</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">NUESTRA PROPUESTA</a>
+          </li>
+          <li>
+            <a href="articulos.html">ARTICULOS</a>
+          </li>
+          <li>
+            <a href="contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="intro-title">
+        <h2>¿Necesitas más información?</h2>
+        <p class="subtitle">
+          Contáctanos y empieza la aventura. Tenemos la experiencia que siempre
+          has ido buscando.
+        </p>
+      </div>
+      <form action="mailto:tarea2@foc.es" method="post">
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          required
+          placeholder="Nombre"
+        />
+
+        <label for="apellidos">Apellidos</label>
+        <input
+          type="text"
+          name="apellidos"
+          id="apellidos"
+          required
+          placeholder="Apellidos"
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Ej.: helloworld@gmail.com"
+        />
+
+        <label for="edad">Edad</label>
+        <input type="number" max="120" min="1 name="edad" id="edad"
+        placeholder="Edad entre 1 y 120 años" />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          name="mensaje-usuario"
+          id="mensaje"
+          cols="30"
+          rows="10"
+          placeholder="Escribe aqui tu mensaje"
+          required
+        ></textarea>
+
+        <input class="btn" type="submit" value="Enviar" />
+      </form>
+    </main>
+    <footer>
+      <p>Proyecto Tarea 2 LMSG - 1° DAW - FOC 2021</p>
+      <p>Swann Julien // Y1276927G</p>
+      <p>
+        <a class="footer__credit" href="credit.html" target="_blank"
+          >CREDITOS</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

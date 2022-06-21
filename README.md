@@ -1,5 +1,5 @@
 # destinationUnknown
-Website created during my 1st year of the two years program FP DAW, Fomento Ocupacional, Granada, Spain: https://www.foc.es/
+First year school project at FP DAW, Fomento Ocupacional, Granada, Spain: https://www.foc.es/
 
 Teacher instructions:
 

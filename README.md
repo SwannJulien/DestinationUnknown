@@ -1,7 +1,7 @@
 # DestinationUnknown
 First year school project at FP DAW, Fomento Ocupacional, Granada, Spain: https://www.foc.es/
 
-# Teacher instructions:
+# Teacher instructions
 
 1. Create a website for an imaginary company
 2. The website has to have 3 pages: home, articles, contact

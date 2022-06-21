@@ -1,4 +1,4 @@
-# destinationUnknown
+# DestinationUnknown
 First year school project at FP DAW, Fomento Ocupacional, Granada, Spain: https://www.foc.es/
 
 # Teacher instructions:
